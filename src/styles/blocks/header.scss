@@ -1,5 +1,8 @@
 .header {
-  background: aqua;
+  background: rgb(165, 172, 172);
+  background-image: url(../images/photos/header-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   justify-content: center;
