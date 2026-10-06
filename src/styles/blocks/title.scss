@@ -1,11 +1,22 @@
 .title {
   font-family: Cinzel, serif;
   font-weight: 700;
-  font-style: Bold;
   font-size: 40px;
   line-height: 100%;
   letter-spacing: -1.5px;
   text-align: center;
-  vertical-align: middle;
-  color: #ffffff;
+  color: #fff;
+
+    &__eyebrow {
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: 0;
+    color: #D12D35;
+  }
+
+    &--secondary {
+      font-size: 32px;
+      line-height: 32px;
+      color: #161616;
+    }
 }
