@@ -1,0 +1,61 @@
+.museum-hours {
+  &__locations {
+    margin-top: 32px;
+  }
+
+  &__location + &__location {
+    margin-top: 24px;
+  }
+
+  &__subtitle {
+    margin: 0 0 16px;
+    font-family: Cinzel, serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+
+  &__schedule {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 24px;
+    row-gap: 8px;
+    align-items: baseline;
+  }
+
+  &__time,
+  &__days {
+    margin: 0;
+    font-family: Cinzel, serif;
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  &__time {
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  &__days {
+    font-weight: 400;
+    white-space: nowrap;
+  }
+
+  &__notice {
+    margin-top: 16px;
+
+    p {
+      font-family: Cinzel, serif;
+      font-size: 16px;
+      line-height: 27px;
+    }
+  }
+
+  &__label {
+    margin: 0;
+    font-family: Cinzel, serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+  }
+}
