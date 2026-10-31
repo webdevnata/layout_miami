@@ -18,8 +18,7 @@
   &__schedule {
     display: grid;
     grid-template-columns: max-content 1fr;
-    column-gap: 24px;
-    row-gap: 8px;
+    gap: 8px 24px;
     align-items: baseline;
   }
 
