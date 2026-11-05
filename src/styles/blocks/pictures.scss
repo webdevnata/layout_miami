@@ -14,7 +14,7 @@
     object-position: 30% center;
   }
 
-  &--three {
+  &--three-columns {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 8px;
