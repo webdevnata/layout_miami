@@ -1,0 +1,18 @@
+.article {
+  margin-top: 48px;
+
+  &__paragraph {
+    font-family: Cinzel, serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0;
+    margin-top: 24px;
+  }
+
+  &__highlight {
+    font-weight: 700;
+    color: #D12D35;
+  }
+}
