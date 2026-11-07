@@ -1,0 +1,35 @@
+.exhibition-gallery-more {
+  margin-top: 100px;
+
+  &__item{
+    margin-top: 48px;
+  }
+
+  &__image{
+    width: 280px;
+    height: 277px;
+    object-fit: cover;
+  }
+
+  &__title{
+    font-family: Cinzel, serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #D12D35;
+    margin-top: 24px;
+  }
+
+  &__paragraph{
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 4px;
+  }
+}
